@@ -22,7 +22,7 @@ function makeGrid() {
   //var canvas = document.getElementById('pixelCanvas');
   let height = Number(gridForm.children[0].value);
   let width = Number(gridForm.children[1].value);
-    for (i=0; i<=height; i++) {
+    for (i=0; i<height; i++) {
       var row = canvas.insertRow(i);
       for (j=0; j<width; j++) {
         var column = row.insertCell(j);
