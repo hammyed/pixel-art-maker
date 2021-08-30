@@ -1,12 +1,10 @@
 body {
     text-align: center;
-    font-family: Arial;
-    font-style: serif;
+    font: 15px Arial, serif;
 }
 
 h1 {
-    font-family: Monoton;
-    font-size: 70px;
+    font: 70px Monoton;
     margin: 0.2em;
 }
 
